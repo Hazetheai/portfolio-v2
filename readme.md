@@ -4,9 +4,9 @@
   </a>
 </p>
 
-# Next.js Notion Starter Kit
+# My Dev Portfolio
 
-> The perfect starter kit for building websites with Next.js and Notion.
+> Based off of Travis Fischers [Next.js Notion Starter Kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit).
 
 [![Build Status](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
