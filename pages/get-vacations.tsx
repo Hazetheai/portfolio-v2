@@ -1,4 +1,5 @@
-import React from 'react'
+import * as React from 'react'
+
 import { Client } from '@notionhq/client'
 
 const GetVacations = ({ response }) => {
@@ -13,7 +14,7 @@ const GetVacations = ({ response }) => {
 export const getStaticProps = async () => {
   try {
     const notion = new Client({
-      auth: 'secret_n8A4jK8UrusX7hGNrTUhT7bqwW6BAowQYxx8o5OoVnr'
+      auth: process.env.NOTION_INTEGRATION_VACATION_PLANNER_SECRET_KEY
     })
 
     const response = await notion.databases.query({
