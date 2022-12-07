@@ -38,3 +38,10 @@ body {
   color: var(--fg-color);
   caret-color: var(--fg-color);
 }
+
+/* notion block overrides */
+
+/* Portfolio content database page link */
+.notion-block-92cb4c5ef47a47b18ea7156377f06099 {
+  display: none;
+}
