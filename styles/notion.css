@@ -170,6 +170,15 @@
   padding-bottom: 1em;
 }
 
+.notion-collection-page-properties {
+  /* TODO */
+  /* display: none; */
+  max-height: 0;
+  /* max-height: 500px; */
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+}
+
 .notion-collection-page-properties .notion-collection-column-title {
   display: none;
 }
