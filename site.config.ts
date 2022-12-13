@@ -15,7 +15,7 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description:
-    "Front-end engineer and creative coder, based in Berlin. This is my little corner of the internet where I showcase my past projects and what I'm working on at the moment. Come say hi!",
+    "Front-end engineer and creative coder, based in Berlin. This is where I showcase my past projects and what I'm working on at the moment. Come say hi!",
   // socialImageTitle: 'Jake Riordan',
   // socialImageSubtitle: 'Hello World! 👋',
 
@@ -30,8 +30,10 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon:
+    'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c9eaa6dd-a54e-4149-95d6-2834ec1d6ef0/passport-square.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221213T095629Z&X-Amz-Expires=86400&X-Amz-Signature=1070de2c84e5f55054632672dfba3cb030ed23f8db7e44d55a9acac18222c51c&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22passport-square.jpeg%22&x-id=GetObject',
+  defaultPageCover:
+    'https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=4800',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)

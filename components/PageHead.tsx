@@ -19,7 +19,7 @@ export const PageHead: React.FC<
   description = description ?? site?.description
 
   const socialImageUrl = getSocialImageUrl(pageId) || image
-
+  console.log('socialImageUrl', socialImageUrl)
   return (
     <Head>
       <meta charSet='utf-8' />

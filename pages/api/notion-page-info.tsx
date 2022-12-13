@@ -75,8 +75,9 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     getCompatibleImageUrl(imageBlockUrl, imageFallbackUrl)
   ])
 
-  const author =
-    getPageProperty<string>('Author', block, recordMap) || libConfig.author
+  const author = /portfolio/i.test(title)
+    ? libConfig.domain
+    : getPageProperty<string>('Author', block, recordMap) || libConfig.author
 
   // const socialDescription =
   //   getPageProperty<string>('Description', block, recordMap) ||
@@ -96,7 +97,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   //   : undefined
   const date =
     isBlogPost && datePublished
-      ? `${datePublished.toLocaleString('en-US', {
+      ? `${datePublished.toLocaleString('en-GB', {
           month: 'long'
         })} ${datePublished.getFullYear()}`
       : undefined

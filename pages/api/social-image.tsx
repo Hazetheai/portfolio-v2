@@ -142,7 +142,8 @@ export default async function OGImage(req: NextRequest) {
               display: 'flex',
               borderRadius: '50%',
               border: '4px solid #fff',
-              zIndex: '5'
+              zIndex: '5',
+              overflow: 'hidden'
             }}
           >
             <img
