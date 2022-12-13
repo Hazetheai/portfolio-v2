@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Jake Riordan - Portfolio',
-  domain: 'jakeriordan.dev',
+  domain: 'v2.jakeriordan.dev',
   author: 'Jake Riordan',
 
   // open graph metadata (optional)
