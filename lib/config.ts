@@ -168,7 +168,7 @@ export const fathomConfig = fathomId
     }
   : undefined
 
-export const posthogId = process.env.NEXT_PUBLIC_POSTHOG_ID
+export const posthogId = isDev ? null : process.env.NEXT_PUBLIC_POSTHOG_ID
 export const posthogConfig: Partial<PostHogConfig> = {
   api_host: 'https://eu.posthog.com'
 }
