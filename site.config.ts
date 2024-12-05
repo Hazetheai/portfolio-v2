@@ -23,7 +23,7 @@ export default siteConfig({
   // twitter: '_stefario_',
   github: 'hazetheai',
   linkedin: 'jake-riordan-610ab1172',
-  cv: 'Jake_Riordan-frontend_developer-2024',
+  cv: 'Jake_Riordan-frontend_developer-2024.pdf',
 
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
